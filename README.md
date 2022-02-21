@@ -15,7 +15,7 @@ and can be embedded on any HTML webpage using an iframe (see, e.g., https://data
 There are a number of features I did not take the time to replicate from the original. These include:
 
 - Circle-color-specific scales and legends,
-- Tooltip formating (including adding units)
+- Tooltip formatting (including adding units)
 - Less "aggressive" tooltip (including smaller fonts)
 
 There are also a number of features I couldn't find a quick way to replicated using Plotly. These include:
@@ -23,7 +23,7 @@ There are also a number of features I couldn't find a quick way to replicated us
 - "Bar legends",
 - Gathering circle-color legend under circle-color selector,
 
-Some things I like better about the original <apbox implementation:
+Some things I like better about the original mapbox implementation:
 
 - Zoom fluidity
 - Seamless circle-color and circle-size changes (unlike my Shiny/Plotly implementation, the mapbox implementation does not appear to rebuild the whole graph each time the user changes inputs)
